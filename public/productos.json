@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Notebook",
+    "descripcion": "Equipo liviano y versátil para estudiar, programar y trabajar.",
+    "precio": 699990,
+    "categoria": "Computación",
+    "img": "https://picsum.photos/seed/notebook/800/500"
+  },
+  {
+    "id": 2,
+    "nombre": "Tablet",
+    "descripcion": "Pantalla cómoda para leer, navegar y consumir contenido multimedia.",
+    "precio": 329990,
+    "categoria": "Móviles",
+    "img": "https://picsum.photos/seed/tablet/800/500"
+  },
+  {
+    "id": 3,
+    "nombre": "Smartphone",
+    "descripcion": "Dispositivo móvil con cámara, conectividad y gran rendimiento.",
+    "precio": 449990,
+    "categoria": "Móviles",
+    "img": "https://picsum.photos/seed/smartphone/800/500"
+  },
+  {
+    "id": 4,
+    "nombre": "Audífonos",
+    "descripcion": "Audio inalámbrico para clases, reuniones y entretenimiento.",
+    "precio": 79990,
+    "categoria": "Accesorios",
+    "img": "https://picsum.photos/seed/audifonos/800/500"
+  },
+  {
+    "id": 5,
+    "nombre": "Monitor",
+    "descripcion": "Pantalla amplia para mejorar la productividad en el escritorio.",
+    "precio": 189990,
+    "categoria": "Computación",
+    "img": "https://picsum.photos/seed/monitor/800/500"
+  },
+  {
+    "id": 6,
+    "nombre": "Teclado",
+    "descripcion": "Teclado cómodo para programación y trabajo diario.",
+    "precio": 49990,
+    "categoria": "Accesorios",
+    "img": "https://picsum.photos/seed/teclado/800/500"
+  }
+]

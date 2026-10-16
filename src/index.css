@@ -1,0 +1,69 @@
+/* Estilos propios, complementarios a Bootstrap. Enfoque MOBILE-FIRST:
+   la base (fuera de toda media query) es la versión móvil y las pantallas
+   grandes se resuelven con min-width. */
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f8f9fa;
+}
+
+/* Hero: tipografía que escala con clamp() (mínimo, ideal, máximo) */
+.hero {
+  background: linear-gradient(135deg, #e9ecef, #ffffff);
+  padding: 1rem 0; /* base: móvil */
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.hero-text {
+  max-width: 700px;
+}
+
+/* Imágenes de producto: fluidas, misma proporción y sin desbordar su columna */
+.producto-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.product-card {
+  border: 0;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Botones cómodos para el dedo (~44 px) */
+.btn {
+  min-height: 2.75rem;
+}
+
+/* Tablet en adelante */
+@media (min-width: 768px) {
+  .hero {
+    padding: 2rem 0;
+  }
+}
+
+/* Escritorio en adelante */
+@media (min-width: 992px) {
+  .hero {
+    padding: 3rem 0;
+  }
+}
+
+/* Respeta a quienes prefieren menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  .product-card {
+    transition: none;
+  }
+
+  .product-card:hover {
+    transform: none;
+  }
+}
